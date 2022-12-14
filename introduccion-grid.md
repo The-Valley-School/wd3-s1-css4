@@ -1,6 +1,6 @@
-GRID es por así decirlo, el primer módulo de CSS que se ha creado con el objetivo de resolver los problemas de diseño que existían a la hora de establecer un diseño web (antes usábamos tablas, elementos flotantes…)
+GRID es, por así decirlo, el primer módulo de CSS que se ha creado con el objetivo de resolver los problemas de diseño que existían a la hora de establecer un diseño web (antes usábamos tablas, elementos flotantes…)
 
-GRID se basa en un diseño bidireccional basado en cuadrículas, a partir de esto, los elementos pueden posicionarse en esas cuadrículas o en áreas personalizadas que se definan.
+GRID se basa un diseño bidireccional de cuadrículas, a partir del cual los elementos pueden posicionarse en esas cuadrículas o en las áreas personalizadas que se definan.
 
 ![Untitled](recursos/imgs/Untitled31.png)
 
@@ -8,7 +8,7 @@ Para empezar a entender esto de las cuadrículas vamos a ver unos conceptos bás
 
 ## CONCEPTOS BÁSICOS
 
-Es importante entender cada uno de estos conceptos ya que son entre sí muy similares y confundirlos nos va a llevar a errores.
+Es importante entender cada uno de estos conceptos ya que son muy similares entre sí y, confundirlos, nos va a llevar a errores.
 
 **GRID CONTAINER**
 
