@@ -12,7 +12,7 @@ Tras conocer todas las posibilidades que nos da GRID, vamos a realizar un ejerci
 </div>
 ```
 
-En este caso el div será el grid-container, le asignamos un color y aplicamos tamaño:
+En este caso el div será el grid-container, le asignamos un tamaño y aplicamos `display:grid`:
 
 ```css
 *{
@@ -22,7 +22,7 @@ En este caso el div será el grid-container, le asignamos un color y aplicamos t
 div {
     margin: 0 auto;
     max-width: 1280px;
-    min-height: 100vh; /* indicamos que mide el 100% del viewport de altura */
+    min-height: 100vh; /* indicamos que mide el 100% de la altura del viewport */
     display: grid;
 }
 ```
@@ -66,7 +66,7 @@ footer{
 }
 ```
 
-Llega el turno de ir adaptando este diseño a los diferentes tamaños de pantalla y reordenar, para ello utilizaremos las propiedades de grid-area y grid-templates-area.
+Llega el turno de ir adaptando este diseño a los diferentes tamaños de pantalla y reordenar, para ello utilizaremos las propiedades de `grid-area` y `grid-templates-areas`.
 
 Primero asignamos a cada sección un nombre de área y luego creamos el template:
 
@@ -83,7 +83,7 @@ div {
         100px        
         100px
         4fr
-        150px;
+        100px;
     grid-template-areas:
         "tv-header"
         "tv-nav"
@@ -119,7 +119,7 @@ footer{
 }
 ```
 
-Para realizar el del formato tablet crearemos una media query y adaptaremos el grid-area
+Para realizar el formato tablet crearemos una media query y adaptaremos el grid-area
 
 ```css
 @media screen and (min-width:768px){
@@ -129,8 +129,8 @@ Para realizar el del formato tablet crearemos una media query y adaptaremos el g
             150px
             100px
             1fr
-          100px;
-				/* indicamos con que sección ocupamos cada una de las cuadriculas */
+            100px;
+	/* indicamos con que sección ocupamos cada una de las cuadriculas */
         grid-template-areas:
         "tv-header tv-header tv-header"
         "tv-nav tv-nav tv-nav"
@@ -186,10 +186,10 @@ grid-template-columns: repeat(auto-fit, 100px);
 
 **minmax()**
 
-Si queremos incluso hacer dinámico el tamaño, don la función minmax() podemos indicar tamaño mínimo y máximo de nuestras columnas y filas
+Si queremos incluso hacer dinámico el tamaño, con la función minmax() podemos indicar el tamaño mínimo y máximo de nuestras columnas y filas.
 
  
 
 ```css
-grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 ```
