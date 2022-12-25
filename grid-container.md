@@ -95,7 +95,7 @@ Veamos un ejemplo:
 
 **[** **grid-template ]**
 
-Grid template areas aglutina estas 3 ultimas propiedades. 
+Grid template aglutina estas 3 ultimas propiedades. 
 
 ```css
 .container {
