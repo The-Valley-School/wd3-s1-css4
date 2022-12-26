@@ -1,6 +1,6 @@
 El objetivo del módulo **Flexbox** es ofrecer una  forma más eficiente para poder alinear, diseñar y distribuir el espacio de los elementos dentro de un contenedor. Incluso en circunstancias donde su contenido es desconocido.
 
-La idea principal detrás del diseño flexible es darle al contenedor la capacidad de modificar el ancho, alto y orden de los elementos para ocupar de una manera más óptima el espacio disponible y así poderse adaptar más eficientemente a los distintos tamaños de pantalla. Esta funcionalidad permite ampliar y reducir los tamaños de sus hijos para ir adaptándolos y evitar que desborden.
+La idea principal detrás del diseño flexible es darle al contenedor la capacidad de modificar el ancho, alto y orden de los elementos para ocupar de una manera más óptima el espacio disponible y así poderse adaptar más eficientemente a los distintos tamaños de pantalla. Esta funcionalidad permite ampliar y reducir los tamaños de sus hijos para ir adaptándolos y evitar que se desborden.
 
 A diferencia de otros métodos, Flexbox nos permite trabajar controlando a la vez columnas y filas, esto sucede gracias a la distribución de elementos en dos ejes. Tendrán un eje principal y uno secundario:
 
